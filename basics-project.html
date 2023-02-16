@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The History of Pinball</title>
+    <style>
+      html {
+        background: linear-gradient(
+          109.6deg,
+          rgb(223, 234, 247) 11.2%,
+          rgb(244, 248, 252) 91.1%
+        );
+      }
+
+      h1 {
+        color: #1ccab0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+        font-size: 60px;
+        margin: 20px 20px 0px 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+      }
+
+      h2 {
+        color: #2688f0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+        font-size: 33px;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-top: 0px;
+      }
+
+      hr {
+        margin-top: 30px;
+      }
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        padding: 10px 20px;
+        line-height: 0.3in;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      img {
+        display: block;
+        background: #fff;
+        margin: 0 auto 30px auto;
+        padding: 15px;
+        border-radius: 15px;
+        max-width: 80%;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+      }
+
+      a {
+        text-decoration: none;
+        color: #1ccab0;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 20px;
+        border-radius: 15px;
+        border: 2px dotted #690318;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        background: #fae87a;
+        color: #261d5b;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        transition: all 1s ease-in-out;
+      }
+
+      button:hover {
+        background: #261d5b;
+        color: #fae87a;
+        cursor: pointer;
+        border: 2px dotted #fff;
+      }
+
+      a:visited {
+        color: #690318;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .index-page {
+        margin: 0 auto;
+        padding: 0px 70px;
+        max-width: 950px;
+      }
+
+      .headers {
+        border: 3px dotted #690318;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin: 0px 20px 10px 20px;
+      }
+
+      .title {
+        font-size: 17px;
+        color: #2688f0;
+        font-style: italic;
+      }
+
+      .footnote {
+        text-align: center;
+        font-size: 12px;
+        color: #690318;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="index-page">
+      <div class="headers">
+        <h1>The History of Pinball</h1>
+        <h2>A Game of Skill and Endless Fun</h2>
+      </div>
+      <hr />
+      <p>
+        Pinball is game that involves the movement and manipulation of a silver
+        ball that is contained within a cabinet called a pinball machine. The
+        general idea of a pinball game is to hit the ball along the game's
+        targets, which includes lights, bumpers, spinners, and ramps, to obtain
+        as many points as you can. The player gets three balls per play.
+      </p>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/043/817/original/arcade1.png?1660681951"
+        alt="pinball arcade"
+      />
+      <p>
+        Pinball games came into prominence during the 1970s, but they have
+        existed since the 1930s. The first popular coin-operated pinball machine
+        was called <em>'Baffle Ball'</em> and was created David Gottlieb in
+        1931, who would go on to found one of the first industry-leading pinball
+        manufacturers, <strong>Gottlieb.</strong>
+      </p>
+      <p>
+        As pinball became more popular, new pinball manufacturers were founded
+        to compete with success of Gottlieb. They include
+        <strong>Williams, Data East, Sega, Bally,</strong> and
+        <strong>Stern</strong>. Today, <strong>Stern Pinball, Inc.</strong> is
+        one of the only remaining pinball gaming companies producing and
+        manufacturing new games. They are known for creating games with a
+        mixture of popular and retro themes, such as
+        <span class="title">Stranger Things</span>,
+        <span class="title">Jurassic Park</span>, and
+        <span class="title">Ghostbusters</span>.
+      </p>
+      <p>
+        Despite losing popularity in the 80s due to the video game boom, pinball
+        arcades have seen a recent revival across the world as retro games have
+        come back in fashion with the nostalgia of the millennial generation. It
+        is through these new arcades that pinball can be appreciated by the next
+        generation!
+      </p>
+      <p>
+        To read more about the history of pinball, please visit
+        <a href="https://www.bmigaming.com/pinballhistory.htm">BMI Gaming</a>.
+      </p>
+      <br />
+      <button>🔘 Sign up for the Silverball Newsletter 🔘</button>
+      <p>
+        <span class="footnote">This webpage was created by Elspeth Humble</span>
+      </p>
+    </div>
+    <script>
+      function signUp() {
+        let name = prompt("What is your first name?");
+        let country = prompt("What country are you from?");
+        let email = prompt("What is your email address?");
+
+        if (country === "Japan") {
+          alert("Arigato gozaimasu, " + name + "!");
+        } else {
+          alert("Thank you so much, " + name + "!");
+        }
+      }
+      let subscribeButton = document.querySelector("button");
+      subscribeButton.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>
