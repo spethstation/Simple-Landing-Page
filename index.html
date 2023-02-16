@@ -112,6 +112,15 @@
         font-style: italic;
       }
 
+      .row {
+        display: flex;
+      }
+
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+
       .footnote {
         text-align: center;
         font-size: 12px;
@@ -121,62 +130,86 @@
     </style>
   </head>
   <body>
-    <div class="index-page">
-      <div class="headers">
-        <h1>The History of Pinball</h1>
-        <h2>A Game of Skill and Endless Fun</h2>
+    <div class="container">
+      <div class="index-page">
+        <div class="headers">
+          <h1>The History of Pinball</h1>
+          <h2>A Game of Skill and Endless Fun</h2>
+        </div>
+        <hr />
+        <p>
+          Pinball is game that involves the movement and manipulation of a
+          silver ball that is contained within a cabinet called a pinball
+          machine. The general idea of a pinball game is to hit the ball along
+          the game's targets, which includes lights, bumpers, spinners, and
+          ramps, to obtain as many points as you can. The player gets three
+          balls per play.
+        </p>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/043/817/original/arcade1.png?1660681951"
+          alt="pinball arcade"
+        />
+        <p>
+          Pinball games came into prominence during the 1970s, but they have
+          existed since the 1930s. The first popular coin-operated pinball
+          machine was called <em>'Baffle Ball'</em> and was created David
+          Gottlieb in 1931, who would go on to found one of the first
+          industry-leading pinball manufacturers, <strong>Gottlieb.</strong>
+        </p>
+        <p>
+          As pinball became more popular, new pinball manufacturers were founded
+          to compete with success of Gottlieb. They include
+          <strong>Williams, Data East, Sega, Bally,</strong> and
+          <strong>Stern</strong>. Today, <strong>Stern Pinball, Inc.</strong> is
+          one of the only remaining pinball gaming companies producing and
+          manufacturing new games. They are known for creating games with a
+          mixture of popular and retro themes, such as
+          <span class="title">Stranger Things</span>,
+          <span class="title">Jurassic Park</span>, and
+          <span class="title">Ghostbusters</span>.
+        </p>
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://sternpinball.com/wp-content/uploads/2019/12/StrangerThings-Pro-Cabinet-FF-4gnlkafad-scaled.webp"
+              width="200px"
+              alt="stranger things pinball machine"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://sternpinball.com/wp-content/uploads/2019/07/JurassicPark-Pro-CabinetFF.webp"
+              width="200px"
+              alt="stranger things pinball machine"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://sternpinball.com/wp-content/uploads/2018/10/Stern-GhostbustersPro-CabinetFF-01x.webp"
+              width="200px"
+              alt="stranger things pinball machine"
+            />
+          </div>
+        </div>
+        <p>
+          Despite losing popularity in the 80s due to the video game boom,
+          pinball arcades have seen a recent revival across the world as retro
+          games have come back in fashion with the nostalgia of the millennial
+          generation. It is through these new arcades that pinball can be
+          appreciated by the next generation!
+        </p>
+        <p>
+          To read more about the history of pinball, please visit
+          <a href="https://www.bmigaming.com/pinballhistory.htm">BMI Gaming</a>.
+        </p>
+        <br />
+        <button>🔘 Sign up for the Silverball Newsletter 🔘</button>
+        <p>
+          <span class="footnote"
+            >This webpage was created by Elspeth Humble</span
+          >
+        </p>
       </div>
-      <hr />
-      <p>
-        Pinball is game that involves the movement and manipulation of a silver
-        ball that is contained within a cabinet called a pinball machine. The
-        general idea of a pinball game is to hit the ball along the game's
-        targets, which includes lights, bumpers, spinners, and ramps, to obtain
-        as many points as you can. The player gets three balls per play.
-      </p>
-      <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/043/817/original/arcade1.png?1660681951"
-        alt="pinball arcade"
-      />
-      <p>
-        Pinball games came into prominence during the 1970s, but they have
-        existed since the 1930s. The first popular coin-operated pinball machine
-        was called <em>'Baffle Ball'</em> and was created David Gottlieb in
-        1931, who would go on to found one of the first industry-leading pinball
-        manufacturers, <strong>Gottlieb.</strong>
-      </p>
-      <p>
-        As pinball became more popular, new pinball manufacturers were founded
-        to compete with success of Gottlieb. They include
-        <strong>Williams, Data East, Sega, Bally,</strong> and
-        <strong>Stern</strong>. Today, <strong>Stern Pinball, Inc.</strong> is
-        one of the only remaining pinball gaming companies producing and
-        manufacturing new games. They are known for creating games with a
-        mixture of popular and retro themes, such as
-        <span class="title">Stranger Things</span>,
-        <span class="title">Jurassic Park</span>, and
-        <span class="title">Ghostbusters</span>.
-      </p>
-      <img
-        src="https://sternpinball.com/wp-content/uploads/2019/12/StrangerThings-Pro-Cabinet-FF-4gnlkafad-scaled.webp"
-        alt="stranger things pinball machine"
-      />
-      <p>
-        Despite losing popularity in the 80s due to the video game boom, pinball
-        arcades have seen a recent revival across the world as retro games have
-        come back in fashion with the nostalgia of the millennial generation. It
-        is through these new arcades that pinball can be appreciated by the next
-        generation!
-      </p>
-      <p>
-        To read more about the history of pinball, please visit
-        <a href="https://www.bmigaming.com/pinballhistory.htm">BMI Gaming</a>.
-      </p>
-      <br />
-      <button>🔘 Sign up for the Silverball Newsletter 🔘</button>
-      <p>
-        <span class="footnote">This webpage was created by Elspeth Humble</span>
-      </p>
     </div>
     <script>
       function signUp() {
